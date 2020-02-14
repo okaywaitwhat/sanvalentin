@@ -1,28 +1,37 @@
 <template>
-  <v-container fluid class="text-center font-weight-normal">
-    <p>Hey</p>
-      <p><span class="highligh">Been trying to meet you</span></p>
-      <p>Hey</p>
-      <p>Must be a devil between us</p>
-      <p>Or whores in my head</p>
-      <p>Whores at my door</p>
-     <p> Whores in my bed</p>
-     <p> But hey</p>
-     <p> <span class="highligh">Where have you been?</span></p>
-     <p> <span class="highligh">If you go, i will surely die</span></p>
-      <p>We're chained</p>
-      <p><span class="highligh">'Uh' said the man to the lady</span></p>
-      <p><span class="highligh">'Uh' said the lady to the man she adored</span></p>
-      <p>And the whores like a choir</p>
-     <p> Go 'uh' all night</p>
-      <p>And mary ain't you tired of this?</p>
-     <p> Uh</p>
-      <p>Is</p>
-      <p>The</p>
-      <p>Sound</p>
-      <p>That the mother makes when the baby breaks</p>
-      <p><span class="highligh">We're chained</span></p>
-    </p>
+  <v-container fluid class="text-center font-weight-normal pa-0">
+    Hey!
+    <br />
+    <span class="highligh">Been trying to meet you</span>
+    <br />Hey!
+    <br />Must be a devil between us
+    <br />Or whores in my head
+    <br />Whores at my door
+    <br />Whores in my bed
+    <br />But hey!
+    <br />
+    <span class="highligh">Where have you been?</span>
+    <br />
+
+    <span class="highligh">If you go, I will surely die</span>
+    <br />We're chained
+    <br />
+    <span class="highligh">'Uh' said the man to the lady</span>
+    <br />
+
+    <span class="highligh">'Uh' said the lady to the man she adored</span>
+    <br />And the whores like a choir
+    <br />Go
+    <i>'uh'</i>
+    all night
+    <br />And mary ain't you tired of this?
+    <br />Uh
+    <br />Is
+    <br />The
+    <br />Sound
+    <br />That the mother makes when the baby breaks
+    <br />
+    <span class="highligh">We're chained</span>
   </v-container>
 </template>
 

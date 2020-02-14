@@ -49,12 +49,17 @@ export default {
     }
   },
   mounted() {
-    console.log("Te amo, Guillermo. Feliz San Valentín <3 PRRR");
+    console.log("Te amo, Guillero");
+    console.log("¡Feliz San Valentín!");
+    console.log("😘 🌚  💩  👽  ❤️");
+    console.log("PRRR...");
+    console.log("Nos vemos mas tarde.");
   }
 };
 </script>
 <style lang="css">
 #app {
   font-family: "Courier New", serif;
+  line-height: 2.5rem;
 }
 </style>
