@@ -6,12 +6,13 @@
           <v-btn
             large
             color="error"
+            class="animated"
             @click.prevent="playPixies('http://cthulhu22.free.fr/Pixies%20-%20Wave%20Of%20Mutilation%20The%20Best%20Of%20Pixies%20(2004)%20320%20vtwin88cube/08.Hey.mp3')"
           >{{ this.buttonTex }}</v-btn>
         </v-container>
       </v-container>
 
-      <v-container class="fill-height justify-center" fluid>
+      <v-container class="fill-height justify-center" fluid v-if="showLyrics">
         <v-row align="center" justify="center">
           <v-col cols="12" sm="8" md="4">
             <HelloWorld v-if="showLyrics" />
@@ -35,7 +36,7 @@ export default {
     return {
       showLyrics: false,
       showButton: true,
-      buttonTex: `I'm ready <3`
+      buttonTex: `I'm ready!`
     };
   },
   methods: {
@@ -61,5 +62,41 @@ export default {
 #app {
   font-family: "Courier New", serif;
   line-height: 2.5rem;
+}
+
+.highligh {
+  color: white;
+  background-color: #ff5252 !important;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.animated {
+  animation: pulse 3s ease infinite alternate;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    background-color: red;
+  }
+  50% {
+    background-color: #ff5252;
+  }
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(20px, 0);
+  }
+
+  80% {
+    transform: translate(-10px, 0);
+  }
 }
 </style>

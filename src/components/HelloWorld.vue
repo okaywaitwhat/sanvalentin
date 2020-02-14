@@ -2,7 +2,7 @@
   <v-container fluid class="text-center font-weight-normal pa-0">
     Hey!
     <br />
-    <span class="highligh">Been trying to meet you</span>
+    <span class="highligh animated">Been trying to meet you</span>
     <br />Hey!
     <br />Must be a devil between us
     <br />Or whores in my head
@@ -41,11 +41,3 @@ export default {
   name: "HelloWorld"
 };
 </script>
-
-<style lang="sass">
-  .highligh
-    color: white
-    background-color: #ff5252 !important
-    padding-right: 5px
-    padding-left: 5px
-</style>
